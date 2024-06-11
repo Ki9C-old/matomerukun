@@ -1,0 +1,33 @@
+name: matomekun
+description: "inputURL"
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  percent_indicator:
+  flutter_hooks:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  flutter_riverpod:
+  riverpod_annotation:
+  google_generative_ai:
+  hive:
+  hive_flutter:
+  hive_generator:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  build_runner:
+  riverpod_generator:
+
+
+flutter:
+
+  uses-material-design: true
